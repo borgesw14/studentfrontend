@@ -28,9 +28,7 @@ export default function Student() {
         .then(res=>res.json())
         .then((result)=>{
             setStudents(result)
-        }
-        )
-    },[])
+        })},[])
 
     return (
         <Box
